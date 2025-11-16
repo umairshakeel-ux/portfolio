@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+
+<?php include 'includes/links.php' ?>
+
+<link rel="stylesheet" href="assets/css/svg.css"/>
+
+</head>
+
+<body>
+
+
+<?php include 'includes/header.php' ?>
+
+
+
+
+<section class="banner">
+	<div class="container">
+		<div class="row">
+
+			<div class="baner-svg">
+				<svg width="100%" height="462" viewBox="0 0 1896 462" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1888.47 19.5798C1587.06 169.464 783.932 427.279 -17.252 259.461" stroke="url(#paint0_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-1"></path>
+					<g filter="url(#filter0_f_2362_2083)">
+					<path d="M1888.47 49.1946C1587.06 199.079 783.932 456.894 -17.252 289.076" stroke="url(#paint1_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-2"></path>
+					</g>
+					<g filter="url(#filter1_f_2362_2083)">
+					<path d="M-17.2744 19.5798C284.14 169.464 1087.27 427.279 1888.45 259.461" stroke="url(#paint2_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-3"></path>
+					</g>
+					<path d="M-17.2744 49.1946C284.14 199.079 1087.27 456.894 1888.45 289.076" stroke="url(#paint3_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-4"></path>
+					<g filter="url(#filter2_f_2362_2083)">
+					<path d="M-17.2744 86.707C284.14 236.592 1087.27 494.406 1888.45 326.588" stroke="url(#paint4_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-5"></path>
+					</g>
+					<g filter="url(#filter3_f_2362_2083)">
+					<path d="M-26.766 174.654C287.117 296.284 1110.49 479.41 1892.92 238.872" stroke="url(#paint5_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-6"></path>
+					</g>
+					<path d="M-17.2744 116.322C284.14 266.207 1087.27 524.021 1888.45 356.203" stroke="url(#paint6_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-7"></path>
+					<path d="M1888.47 86.707C1587.06 236.592 783.932 494.406 -17.252 326.588" stroke="url(#paint7_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-8"></path>
+					<path d="M1888.47 116.322C1587.06 266.207 783.932 524.021 -17.252 356.203" stroke="url(#paint8_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-9"></path>
+					<g filter="url(#filter4_f_2362_2083)">
+					<path d="M1888.47 86.707C1587.06 236.592 783.932 494.406 -17.252 326.588" stroke="url(#paint9_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-10"></path>
+					</g>
+					<path d="M1888.47 116.322C1587.06 266.207 783.932 524.021 -17.252 356.203" stroke="url(#paint10_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-11"></path>
+					<g filter="url(#filter5_f_2362_2083)">
+					<path d="M-17.2744 608.82C284.14 458.935 1087.27 201.12 1888.45 368.938" stroke="url(#paint11_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-12"></path>
+					</g>
+					<path d="M-17.2744 638.434C284.14 488.55 1087.27 230.735 1888.45 398.553" stroke="url(#paint12_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-13"></path>
+					<path d="M-17.2744 541.248C284.14 391.363 1087.27 133.548 1888.45 301.367" stroke="url(#paint13_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-14"></path>
+					<path d="M-25.785 467.483C286.27 341.238 1106.85 145.993 1892.75 374.969" stroke="url(#paint14_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-15"></path>
+					<path d="M-17.2744 570.863C284.14 420.978 1087.27 163.163 1888.45 330.982" stroke="url(#paint15_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-16"></path>
+					<path d="M1888.47 528.415C1587.06 378.53 783.932 120.715 -17.2519 288.534" stroke="url(#paint16_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-17"></path>
+					<path d="M1888.47 558.03C1587.06 408.145 783.932 150.33 -17.2519 318.148" stroke="url(#paint17_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-18"></path>
+					<path d="M1888.47 528.415C1587.06 378.53 783.932 120.715 -17.2519 288.534" stroke="url(#paint18_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-19"></path>
+					<path d="M1888.47 558.03C1587.06 408.145 783.932 150.33 -17.2519 318.148" stroke="url(#paint19_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-20"></path>
+					<g filter="url(#filter6_f_2362_2083)">
+					<path d="M1888.47 573.824C1587.06 423.94 783.932 166.125 -17.2519 333.943" stroke="url(#paint20_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-21"></path>
+					</g>
+					<g filter="url(#filter7_f_2362_2083)">
+					<path d="M1888.47 593.568C1587.06 443.683 783.932 185.868 -17.2519 353.686" stroke="url(#paint21_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-22"></path>
+					</g>
+					<path d="M1888.47 608.82C1587.06 458.935 783.932 201.12 -17.2519 368.938" stroke="url(#paint22_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-23"></path>
+					<path d="M1888.47 638.434C1587.06 488.55 783.932 230.735 -17.2519 398.553" stroke="url(#paint23_linear_2362_2083)" stroke-opacity="0.3" stroke-width="2.9615" class="svg-elem-24"></path>
+					<defs>
+					<filter id="filter0_f_2362_2083" x="-26.4392" y="38.9842" width="1924.45" height="315.196" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+					<feGaussianBlur stdDeviation="4.44225" result="effect1_foregroundBlur_2362_2083"></feGaussianBlur>
+					</filter>
+					<filter id="filter1_f_2362_2083" x="-26.8181" y="9.36941" width="1924.45" height="315.196" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+					<feGaussianBlur stdDeviation="4.44225" result="effect1_foregroundBlur_2362_2083"></feGaussianBlur>
+					</filter>
+					<filter id="filter2_f_2362_2083" x="-25.8309" y="77.4838" width="1922.48" height="313.221" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+					<feGaussianBlur stdDeviation="3.94866" result="effect1_foregroundBlur_2362_2083"></feGaussianBlur>
+					</filter>
+					<filter id="filter3_f_2362_2083" x="-35.1981" y="165.376" width="1936.45" height="200.578" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+					<feGaussianBlur stdDeviation="3.94866" result="effect1_foregroundBlur_2362_2083"></feGaussianBlur>
+					</filter>
+					<filter id="filter4_f_2362_2083" x="-51.1183" y="51.8175" width="1973.81" height="364.554" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+					<feGaussianBlur stdDeviation="16.7818" result="effect1_foregroundBlur_2362_2083"></feGaussianBlur>
+					</filter>
+					<filter id="filter5_f_2362_2083" x="-25.8309" y="304.821" width="1922.48" height="313.221" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+					<feGaussianBlur stdDeviation="3.94866" result="effect1_foregroundBlur_2362_2083"></feGaussianBlur>
+					</filter>
+					<filter id="filter6_f_2362_2083" x="-25.452" y="269.826" width="1922.48" height="313.221" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+					<feGaussianBlur stdDeviation="3.94866" result="effect1_foregroundBlur_2362_2083"></feGaussianBlur>
+					</filter>
+					<filter id="filter7_f_2362_2083" x="-26.4392" y="288.583" width="1924.45" height="315.196" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+					<feGaussianBlur stdDeviation="4.44225" result="effect1_foregroundBlur_2362_2083"></feGaussianBlur>
+					</filter>
+					<linearGradient id="paint0_linear_2362_2083" x1="-17.7455" y1="256.006" x2="1934.37" y2="19.5798" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint1_linear_2362_2083" x1="-17.7455" y1="285.621" x2="1934.37" y2="49.1945" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint2_linear_2362_2083" x1="1888.94" y1="256.006" x2="-63.1775" y2="19.5798" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint3_linear_2362_2083" x1="1888.94" y1="285.621" x2="-63.1775" y2="49.1945" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint4_linear_2362_2083" x1="1888.94" y1="323.133" x2="-63.1775" y2="86.707" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint5_linear_2362_2083" x1="1893.1" y1="235.386" x2="-72.4759" y2="178.861" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint6_linear_2362_2083" x1="1888.94" y1="352.748" x2="-63.1775" y2="116.322" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint7_linear_2362_2083" x1="-17.7455" y1="323.133" x2="1934.37" y2="86.707" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint8_linear_2362_2083" x1="-17.7455" y1="352.748" x2="1934.37" y2="116.322" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint9_linear_2362_2083" x1="-17.7455" y1="323.133" x2="1934.37" y2="86.707" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint10_linear_2362_2083" x1="-17.7455" y1="352.748" x2="1934.37" y2="116.322" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint11_linear_2362_2083" x1="1888.94" y1="372.393" x2="-63.1775" y2="608.82" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint12_linear_2362_2083" x1="1888.94" y1="402.008" x2="-63.1775" y2="638.435" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint13_linear_2362_2083" x1="1888.94" y1="304.822" x2="-63.1775" y2="541.248" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint14_linear_2362_2083" x1="1892.97" y1="378.452" x2="-71.5521" y2="463.95" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint15_linear_2362_2083" x1="1888.94" y1="334.437" x2="-63.1775" y2="570.863" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint16_linear_2362_2083" x1="-17.7455" y1="291.989" x2="1934.37" y2="528.415" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint17_linear_2362_2083" x1="-17.7455" y1="321.603" x2="1934.37" y2="558.03" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint18_linear_2362_2083" x1="-17.7455" y1="291.989" x2="1934.37" y2="528.415" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint19_linear_2362_2083" x1="-17.7455" y1="321.603" x2="1934.37" y2="558.03" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint20_linear_2362_2083" x1="-17.7455" y1="337.398" x2="1934.37" y2="573.824" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint21_linear_2362_2083" x1="-17.7455" y1="357.141" x2="1934.37" y2="593.568" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint22_linear_2362_2083" x1="-17.7455" y1="372.393" x2="1934.37" y2="608.82" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					<linearGradient id="paint23_linear_2362_2083" x1="-17.7455" y1="402.008" x2="1934.37" y2="638.435" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#1EFF00" stop-opacity="0.2"></stop>
+					<stop offset="0.5" stop-color="#1EFF00"></stop>
+					<stop offset="1" stop-color="#129900" stop-opacity="0.2"></stop>
+					</linearGradient>
+					</defs>
+				</svg>
+			</div>
+
+			<!-- <div class="border-box">
+			  <svg id="snake-svg" viewBox="0 0 1657 628" xmlns="http://www.w3.org/2000/svg">
+
+			  	<defs>
+			      <linearGradient id="snakeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+			        <stop offset="0%" stop-color="#14a80070" />
+			        <stop offset="50%" stop-color="#14A800" />
+			        <stop offset="100%" stop-color="#14a80070" />
+			      </linearGradient>
+			    </defs>
+				  
+				  <rect class="box" x="209.434" y="91.8799" width="204.064" height="225.544" rx="14.576"/>
+				  <rect class="box" x="414.962" y="167.269" width="475.026" height="303.229" rx="14.576"/>
+				  <rect class="box" x="890.346" y="91.9608" width="123.195" height="378.537" rx="14.576"/>
+				  <rect class="box" x="1013.9" y="90.784" width="237.334" height="304.406" rx="14.576"/>
+				  <rect class="box" x="1251.59" y="167.269" width="404.424" height="227.921" rx="14.576"/>
+				  <rect class="box" x="1251.59" y="395.547" width="205.563" height="230.274" rx="14.576"/>
+				  <rect class="box" x="1013.9" y="395.547" width="237.334" height="230.274" rx="14.576"/>
+				  <rect class="box" x="1251.59" y="1.35554" width="146.729" height="165.556" rx="14.576"/>
+				  <rect class="box" x="1012.72" y="1.35554" width="238.511" height="89.0709" rx="14.576"/>
+				  <rect class="box" x="413.786" y="1.35554" width="359.71" height="165.556" rx="14.576"/>
+				  <rect class="box" x="773.854" y="91.9608" width="117.312" height="74.9506" rx="14.576"/>
+				  <rect class="box" x="773.854" y="1.35554" width="238.511" height="90.2476" rx="14.576"/>
+				  <rect class="box" x="209.041" y="317.886" width="205.563" height="152.612" rx="14.576"/>
+				  <rect class="box" x="4.29706" y="399.077" width="205.563" height="71.4206" rx="14.576"/>
+				  <rect class="box" x="4.29706" y="91.9608" width="205.563" height="306.759" rx="14.576"/>
+				  <rect class="box" x="1.15803" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+				  <rect class="box" x="415.158" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+				  <rect class="box" x="829.158" y="470.356" width="184.466" height="155.466" rx="14.576"/>
+
+				  
+				  <path id="snake-path1" class="snake"/>
+				</svg>
+			</div> -->
+
+			<div class="bantext" data-aos="zoom-in">
+				<h2>I design clean <span class="highlight1">scalable</span> and <br> <span class="highlight2">conversion-focused</span> interfaces for <br> startups and SaaS products.</h2>
+				<p>We partner with companies and organizations across industries helping them build successful <br> engineering teams and create innovative software products</p>
+				<div class="btnn1">
+					<a href="javascript:;">Send me Invitation on Upwork <i class="fa-regular fa-paper-plane"></i></a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+
+<section class="feature-work">
+	<div class="container">
+		<div class="row">
+			<div class="main-heading" data-aos="slide-up" data-aos-duration="1000">
+				<h2>Featured Work & Case Studies</h2>
+			</div>
+			<div class="feature-work-box">
+
+				<div class="border-box">
+				  <svg id="snake-svg" viewBox="0 0 1657 628" xmlns="http://www.w3.org/2000/svg">
+
+				  	<defs>
+				      <linearGradient id="snakeGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+				        <stop offset="0%" stop-color="#8f00ff7a" />
+				        <stop offset="50%" stop-color="#8F00FF" />
+				        <stop offset="100%" stop-color="#8f00ff7a" />
+				      </linearGradient>
+				    </defs>
+
+
+					  <!-- Boxes -->
+					  <rect class="box" x="209.434" y="91.8799" width="204.064" height="225.544" rx="14.576"/>
+					  <rect class="box" x="414.962" y="167.269" width="475.026" height="303.229" rx="14.576"/>
+					  <rect class="box" x="890.346" y="91.9608" width="123.195" height="378.537" rx="14.576"/>
+					  <rect class="box" x="1013.9" y="90.784" width="237.334" height="304.406" rx="14.576"/>
+					  <rect class="box" x="1251.59" y="167.269" width="404.424" height="227.921" rx="14.576"/>
+					  <rect class="box" x="1251.59" y="395.547" width="205.563" height="230.274" rx="14.576"/>
+					  <rect class="box" x="1013.9" y="395.547" width="237.334" height="230.274" rx="14.576"/>
+					  <rect class="box" x="1251.59" y="1.35554" width="146.729" height="165.556" rx="14.576"/>
+					  <rect class="box" x="1012.72" y="1.35554" width="238.511" height="89.0709" rx="14.576"/>
+					  <rect class="box" x="413.786" y="1.35554" width="359.71" height="165.556" rx="14.576"/>
+					  <rect class="box" x="773.854" y="91.9608" width="117.312" height="74.9506" rx="14.576"/>
+					  <rect class="box" x="773.854" y="1.35554" width="238.511" height="90.2476" rx="14.576"/>
+					  <rect class="box" x="209.041" y="317.886" width="205.563" height="152.612" rx="14.576"/>
+					  <rect class="box" x="4.29706" y="399.077" width="205.563" height="71.4206" rx="14.576"/>
+					  <rect class="box" x="4.29706" y="91.9608" width="205.563" height="306.759" rx="14.576"/>
+					  <rect class="box" x="1.15803" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+					  <rect class="box" x="415.158" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+					  <rect class="box" x="829.158" y="470.356" width="184.466" height="155.466" rx="14.576"/>
+
+					  <!-- Snakes -->
+					  <path id="snake-path1" class="snake snake2"/>
+					</svg>
+				</div>
+				<div class="feature-slider">
+						<div class="row align-items-center">
+							<div class="col-md-6" data-aos="slide-right" data-aos-duration="1000">
+			    	<!-- Image Slider -->
+				    <div class="slider-images">
+				      <div><img src="assets/images/case1.png" alt=""></div>
+				      <div><img src="assets/images/case1.png" alt=""></div>
+				      <div><img src="assets/images/case1.png" alt=""></div>
+				    </div>
+			    </div>
+			    <div class="col-md-6">
+			    	<!-- Text Slider -->
+				    <div class="slider-text">
+				      <div>
+				        <div class="case-txt">
+				          <h2>AI-Powered Real Estate SaaS Product</h2>
+				          <p>Design a scalable and intuitive dashboard to help real-estate professionals manage listings, analytics, and client workflows using AI insights.</p>
+				          <div class="case-btn"><a href="project1">View Case Study</a></div>
+				        </div>
+				      </div>
+				      <div>
+				        <div class="case-txt">
+				          <h2>Luxury Perfume eCommerce Website</h2>
+				          <p>Created an elegant and immersive eCommerce experience highlighting brand storytelling and seamless product exploration.</p>
+				          <div class="case-btn"><a href="project2">View Case Study</a></div>
+				        </div>
+				      </div>
+				      <div>
+				        <div class="case-txt">
+				          <h2>Event Management SaaS Dashboard</h2>
+				          <p>Designed a clean and interactive platform for organizers to manage events, ticket sales, and real-time analytics.</p>
+				          <div class="case-btn"><a href="project3">View Case Study</a></div>
+				        </div>
+				      </div>
+				    </div>
+			    </div>
+						</div>			    
+  			</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="tools-and-workflow">
+	<div class="container">
+
+		<div class="main-heading">
+			<h2 data-aos="zoom-in" data-aos-duration="1000">Tools & Workflow</h2>
+		</div>
+
+		<div class="row">
+
+			<div class="tools">
+				<div class="tool tool1" data-aos="zoom-in" data-aos-duration="1000">
+					<img src="assets/images/adobe-photoshop.png">
+					<h4>Photoshop</h4>
+				</div>
+				<div class="tool tool2" data-aos="zoom-in" data-aos-duration="1000">
+					<img src="assets/images/figma.png">
+					<h4>Figma</h4>
+				</div>
+				<div class="tool tool3" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>🧠 Research & Wireframing</h4>
+				</div>
+				<div class="tool tool4" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>🚀 Developer Handoff</h4>
+				</div>
+				<div class="tool tool5" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>🧪 Usability Testing</h4>
+				</div>
+				<div class="tool tool6" data-aos="zoom-in" data-aos-duration="1000">
+					<img src="assets/images/dashboard.png">
+				</div>
+				<div class="tool tool7" data-aos="zoom-in" data-aos-duration="1000">
+					<img src="assets/images/zeplin.png">
+					<h4>Zeplin</h4>
+				</div>
+				<div class="tool tool8" data-aos="zoom-in" data-aos-duration="1000">
+					<img src="assets/images/mobile2.png">
+				</div>
+				<div class="tool tool9" data-aos="zoom-in" data-aos-duration="1000">
+					<img src="assets/images/mobile.png">
+				</div>
+				<div class="tool tool10" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>🎨 UI Design & Prototyping</h4>
+				</div>
+				<div class="tool tool11" data-aos="zoom-in" data-aos-duration="1000">
+					<img src="assets/images/figjam.png">
+				</div>
+				<div class="tool tool12" data-aos="zoom-in" data-aos-duration="1000">
+					<img src="assets/images/mobile3.png">
+				</div>
+				<div class="tool tool13" data-aos="zoom-in" data-aos-duration="1000">
+					<img src="assets/images/notion.png">
+					<h4>Notion</h4>
+				</div>
+			</div>
+
+			<div class="border-box">
+			  <svg id="snake-svg" viewBox="0 0 1657 628" xmlns="http://www.w3.org/2000/svg">
+
+			  	<defs>
+				      <linearGradient id="paint0_linear_2166_282" x1="282.118" y1="94.7324" x2="222.302" y2="202.158" gradientUnits="userSpaceOnUse">
+				      <stop stop-color="#8F00FF" stop-opacity="0"/>
+				      <stop offset="0.419011" stop-color="#8F00FF"/>
+				      <stop offset="1" stop-color="#8F00FF" stop-opacity="0"/>
+				    </linearGradient>
+				  </defs>
+
+
+				  
+				  <rect class="box" x="209.434" y="91.8799" width="204.064" height="225.544" rx="14.576"/>
+				  <rect class="box" x="414.962" y="167.269" width="475.026" height="303.229" rx="14.576"/>
+				  <rect class="box" x="890.346" y="91.9608" width="123.195" height="378.537" rx="14.576"/>
+				  <rect class="box" x="1013.9" y="90.784" width="237.334" height="304.406" rx="14.576"/>
+				  <rect class="box" x="1251.59" y="167.269" width="404.424" height="227.921" rx="14.576"/>
+				  <rect class="box" x="1251.59" y="395.547" width="205.563" height="230.274" rx="14.576"/>
+				  <rect class="box" x="1013.9" y="395.547" width="237.334" height="230.274" rx="14.576"/>
+				  <rect class="box" x="1251.59" y="1.35554" width="146.729" height="165.556" rx="14.576"/>
+				  <rect class="box" x="1012.72" y="1.35554" width="238.511" height="89.0709" rx="14.576"/>
+				  <rect class="box" x="413.786" y="1.35554" width="359.71" height="165.556" rx="14.576"/>
+				  <rect class="box" x="773.854" y="91.9608" width="117.312" height="74.9506" rx="14.576"/>
+				  <rect class="box" x="773.854" y="1.35554" width="238.511" height="90.2476" rx="14.576"/>
+				  <rect class="box" x="209.041" y="317.886" width="205.563" height="152.612" rx="14.576"/>
+				  <rect class="box" x="4.29706" y="399.077" width="205.563" height="71.4206" rx="14.576"/>
+				  <rect class="box" x="4.29706" y="91.9608" width="205.563" height="306.759" rx="14.576"/>
+				  <rect class="box" x="1.15803" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+				  <rect class="box" x="415.158" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+				  <rect class="box" x="829.158" y="470.356" width="184.466" height="155.466" rx="14.576"/>
+
+				  
+				  <path id="snake-path1" class="snake"/>
+				</svg>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<section class="about-sec">
+	<div class="container">
+		<div class="row">
+				<div class="border-box">
+				  <svg id="snake-svg" viewBox="0 0 1657 628" xmlns="http://www.w3.org/2000/svg">
+
+				  	<defs>
+				      <linearGradient id="paint0_linear_2166_282" x1="282.118" y1="94.7324" x2="222.302" y2="202.158" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8F00FF" stop-opacity="0"/>
+      <stop offset="0.419011" stop-color="#8F00FF"/>
+      <stop offset="1" stop-color="#8F00FF" stop-opacity="0"/>
+    </linearGradient>
+				    </defs>
+
+
+					  <rect class="box" x="209.434" y="91.8799" width="204.064" height="225.544" rx="14.576"/>
+					  <rect class="box" x="414.962" y="167.269" width="475.026" height="303.229" rx="14.576"/>
+					  <rect class="box" x="890.346" y="91.9608" width="123.195" height="378.537" rx="14.576"/>
+					  <rect class="box" x="1013.9" y="90.784" width="237.334" height="304.406" rx="14.576"/>
+					  <rect class="box" x="1251.59" y="167.269" width="404.424" height="227.921" rx="14.576"/>
+					  <rect class="box" x="1251.59" y="395.547" width="205.563" height="230.274" rx="14.576"/>
+					  <rect class="box" x="1013.9" y="395.547" width="237.334" height="230.274" rx="14.576"/>
+					  <rect class="box" x="1251.59" y="1.35554" width="146.729" height="165.556" rx="14.576"/>
+					  <rect class="box" x="1012.72" y="1.35554" width="238.511" height="89.0709" rx="14.576"/>
+					  <rect class="box" x="413.786" y="1.35554" width="359.71" height="165.556" rx="14.576"/>
+					  <rect class="box" x="773.854" y="91.9608" width="117.312" height="74.9506" rx="14.576"/>
+					  <rect class="box" x="773.854" y="1.35554" width="238.511" height="90.2476" rx="14.576"/>
+					  <rect class="box" x="209.041" y="317.886" width="205.563" height="152.612" rx="14.576"/>
+					  <rect class="box" x="4.29706" y="399.077" width="205.563" height="71.4206" rx="14.576"/>
+					  <rect class="box" x="4.29706" y="91.9608" width="205.563" height="306.759" rx="14.576"/>
+					  <rect class="box" x="1.15803" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+					  <rect class="box" x="415.158" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+					  <rect class="box" x="829.158" y="470.356" width="184.466" height="155.466" rx="14.576"/>
+
+					  <path id="snake-path1" class="snake snake2"/>
+					</svg>
+				</div>
+				<div class="about-txt">
+					<p data-aos="zoom-in" data-aos-duration="1000">I’m Umair, a UI/UX designer <span class="gap"></span> focused on SaaS products <br> dashboards, and mobile <span class="gap"></span> apps. I help startups simplify <br> <span class="top">complex workflows into beautiful, user-friendly designs.</span></p>
+					<div class="btnn">
+						<a href="javascript:;">Message me on Upwork <i class="fa-regular fa-paper-plane"></i></a>
+					</div>
+					<ul>
+						<li><i class="fa-solid fa-square-check"></i> 30+ Projects Completed</li>
+						<li><i class="fa-solid fa-square-check"></i> Clients from USA, Germany, UAE</li>
+						<li><i class="fa-solid fa-square-check"></i> 100% Job Success on Upwork</li>
+					</ul>
+				</div>
+				<div class="pic">
+					<img src="assets/images/pic.png">
+				</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<section class="service-sec">
+	<div class="container">
+		<div class="main-heading" data-aos="zoom-in" data-aos-duration="1000">
+			<h2>Services I Offer</h2>
+		</div>
+
+		<div class="row r1 align-items-center">
+			<div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+				<div class="service-head">
+					<h2>Mobile App Design <br> (iOS & Android)</h2>
+					<div class="service-txt">
+						<ul>
+							<li>
+								<h4>Delivers Seamless User Experience</h4>
+								<p>Intuitive navigation and smooth interactions keep users engaged and satisfied.</p>
+							</li>
+							<li>
+								<h4>Boosts User Retention & Engagement</h4>
+								<p>Thoughtful UX flows encourage users to return and interact more frequently.</p>
+							</li>
+							<li>
+								<h4>Drives Business Growth</h4>
+								<p>Well-crafted onboarding and CTAs increase conversions and customer lifetime value.</p>
+							</li>
+						</ul>
+					</div>
+					<div class="btnn text-start">
+						<a href="javascript:;">Message me on Upwork <i class="fa-regular fa-paper-plane"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+					<div class="service-img">
+						<img src="assets/images/mobile-app-design.png">
+					</div>
+			</div>
+		</div>
+
+		<div class="row r2 align-items-center">
+			<div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+				<div class="service-img">
+					<img src="assets/images/dashboard-panel-img.png">
+				</div>
+			</div>
+			<div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+				<div class="service-head">
+					<h2>Dashboard & Admin <br> Panel Design</h2>
+					<div class="service-txt">
+					<ul>
+						<li>
+							<h4>Transforms Data Into Clear Insights</h4>
+							<p>Converts complex analytics and reports into easy-to-understand visuals for smarter decisions.</p>
+						</li>
+						<li>
+							<h4>Strengthens Brand Credibility</h4>
+							<p>Component-based systems make it easy to add new modules or features as the product grows.</p>
+						</li>
+						<li>
+							<h4>Increases Conversion & Activation Rates</h4>
+							<p>A modern, polished dashboard builds trust and makes your platform feel enterprise-ready.</p>
+						</li>
+					</ul>
+				</div>
+					<div class="btnn text-start">
+						<a href="javascript:;">Message me on Upwork <i class="fa-regular fa-paper-plane"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row r3 align-items-center">
+			<div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+				<div class="service-head">
+					<h2>Landing Page Design</h2>
+					<div class="service-txt">
+					<ul>
+						<li>
+							<h4>Increases Conversions</h4>
+							<p>A well-structured landing page guides visitors toward a single, clear action whether it’s signing up, purchasing, or booking a demo.</p>
+						</li>
+						<li>
+							<h4>Builds Brand Credibility</h4>
+							<p>Strategic use of visuals, messaging, and social proof helps establish trust and professionalism instantly.</p>
+						</li>
+						<li>
+							<h4>Optimized for Campaigns</h4>
+							<p>Tailored landing pages maximize ROI from marketing and ad campaigns by aligning perfectly with user intent.</p>
+						</li>
+					</ul>
+				</div>
+					<div class="btnn text-start">
+						<a href="javascript:;">Message me on Upwork <i class="fa-regular fa-paper-plane"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+				<div class="service-img">
+					<img src="assets/images/landing-page-design-img.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="row r4 align-items-center">
+			<div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+				<div class="service-img">
+					<img src="assets/images/design-system-img.png">
+				</div>
+			</div>
+			<div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+				<div class="service-head">
+					<h2>Design Systems & <br> Prototypes</h2>
+					<div class="service-txt">
+					<ul>
+						<li>
+							<h4>Consistency Across Products</h4>
+							<p>A unified design system ensures every page, screen, and component follows the same visual language creating a cohesive brand experience.</p>
+						</li>
+						<li>
+							<h4>Faster Design & Development</h4>
+							<p>Reusable components and tokens speed up both design and handoff, reducing repetitive work and ensuring pixel-perfect results.</p>
+						</li>
+						<li>
+							<h4>Scalable for Growth</h4>
+							<p>As products evolve, design systems make it easy to add new features or interfaces without breaking consistency.</p>
+						</li>
+					</ul>
+				</div>
+					<div class="btnn text-start">
+						<a href="javascript:;">Message me on Upwork <i class="fa-regular fa-paper-plane"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<section class="job-score">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-6" data-aos="slide-right" data-aos-duration="1000">
+				<div class="job-score-txt">
+					<p>Let’s build your next SaaS experience together. I help teams turn complex systems into clean, high-performing user interfaces.</p>
+				</div>
+			</div>
+			<div class="col-md-6" data-aos="slide-left" data-aos-duration="1000">
+				<div class="job-score-img">
+					<img src="assets/images/job-score.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="industries-design">
+	<div class="container">
+		<div class="main-heading" data-aos="zoom-in" data-aos-duration="1000">
+			<h2>Industries I Design For</h2>
+		</div>
+		<div class="row">
+			<div class="industries">
+				<div class="industry industry1" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>🏠 Real Estate <br> & PropTech</h4>
+					<p>Smart dashboards and property tools powered by clean UX.</p>
+				</div>
+				<div class="industry industry2" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>💳 Fintech <br> & Banking</h4>
+					<p>Secure, data-driven interfaces that inspire user trust.</p>
+				</div>
+				<div class="industry industry3" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>📈 Marketing & Automation <br> Tools</h4>
+					<p>Streamlined dashboards, CRMs, and business tools built for scale.</p>
+				</div>
+				<div class="industry industry4" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>💻 SaaS & B2B Platforms</h4>
+					<p>Streamlined dashboards, CRMs, and business tools built for scale.</p>
+				</div>
+				<div class="industry industry5" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>📚 Education <br> & eLearning</h4>
+					<p>Interactive learning systems with smooth, intuitive experiences.</p>
+				</div>
+				<div class="industry industry6" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>📰 Media & Content Platforms</h4>
+					<p>Editorial layouts and storytelling experiences that engage audiences.</p>
+				</div>
+				<div class="industry industry7" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>❤️ Health & Wellness</h4>
+					<p>Simple, accessible apps that make tracking and care effortless.</p>
+				</div>
+				<div class="industry industry8" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>🛒 E-Commerce & Retail</h4>
+					<p>Conversion-focused designs that enhance shopping and admin flows</p>
+				</div>
+				<div class="industry industry9" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>✈️ Travel & <br> Booking</h4>
+					<p>Seamless booking journeys that delight users on every step.</p>
+				</div>
+				<div class="industry industry10" data-aos="zoom-in" data-aos-duration="1000">
+					<h4>🤖 AI & <br> Analytics Tools</h4>
+					<p>Turning complex data into clear, insight-driven dashboards.</p>
+				</div>
+			</div>
+
+			<div class="border-box">
+			  <svg id="snake-svg" viewBox="0 0 1657 628" xmlns="http://www.w3.org/2000/svg">
+
+			  	<defs>
+				      <linearGradient id="snakeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+				        <stop offset="0%" stop-color="#8f00ff7a" />
+				        <stop offset="50%" stop-color="#8F00FF" />
+				        <stop offset="100%" stop-color="#8f00ff7a" />
+				      </linearGradient>
+				  </defs>
+
+
+				  <!-- Boxes -->
+				  <rect class="box" x="209.434" y="91.8799" width="204.064" height="225.544" rx="14.576"/>
+				  <rect class="box" x="414.962" y="167.269" width="475.026" height="303.229" rx="14.576"/>
+				  <rect class="box" x="890.346" y="91.9608" width="123.195" height="378.537" rx="14.576"/>
+				  <rect class="box" x="1013.9" y="90.784" width="237.334" height="304.406" rx="14.576"/>
+				  <rect class="box" x="1251.59" y="167.269" width="404.424" height="227.921" rx="14.576"/>
+				  <rect class="box" x="1251.59" y="395.547" width="205.563" height="230.274" rx="14.576"/>
+				  <rect class="box" x="1013.9" y="395.547" width="237.334" height="230.274" rx="14.576"/>
+				  <rect class="box" x="1251.59" y="1.35554" width="146.729" height="165.556" rx="14.576"/>
+				  <rect class="box" x="1012.72" y="1.35554" width="238.511" height="89.0709" rx="14.576"/>
+				  <rect class="box" x="413.786" y="1.35554" width="359.71" height="165.556" rx="14.576"/>
+				  <rect class="box" x="773.854" y="91.9608" width="117.312" height="74.9506" rx="14.576"/>
+				  <rect class="box" x="773.854" y="1.35554" width="238.511" height="90.2476" rx="14.576"/>
+				  <rect class="box" x="209.041" y="317.886" width="205.563" height="152.612" rx="14.576"/>
+				  <rect class="box" x="4.29706" y="399.077" width="205.563" height="71.4206" rx="14.576"/>
+				  <rect class="box" x="4.29706" y="91.9608" width="205.563" height="306.759" rx="14.576"/>
+				  <rect class="box" x="1.15803" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+				  <rect class="box" x="415.158" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+				  <rect class="box" x="829.158" y="470.356" width="184.466" height="155.466" rx="14.576"/>
+
+				  <!-- Snakes -->
+				  <path id="snake-path1" class="snake"/>
+				</svg>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+
+<section class="feedback">
+	<div class="container">
+		<div class="main-heading" data-aos="zoom-in" data-aos-duration="1000">
+			<h2>Clients Feedback's</h2>
+		</div>
+		<div class="row">
+				<div class="border-box">
+				  <svg id="snake-svg" viewBox="0 0 1657 628" xmlns="http://www.w3.org/2000/svg">
+
+				  	<defs>
+				      <linearGradient id="paint0_linear_2166_282" x1="282.118" y1="94.7324" x2="222.302" y2="202.158" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8F00FF" stop-opacity="0"/>
+      <stop offset="0.419011" stop-color="#8F00FF"/>
+      <stop offset="1" stop-color="#8F00FF" stop-opacity="0"/>
+    </linearGradient>
+				    </defs>
+
+
+					  <rect class="box" x="209.434" y="91.8799" width="204.064" height="225.544" rx="14.576"/>
+					  <rect class="box" x="414.962" y="167.269" width="475.026" height="303.229" rx="14.576"/>
+					  <rect class="box" x="890.346" y="91.9608" width="123.195" height="378.537" rx="14.576"/>
+					  <rect class="box" x="1013.9" y="90.784" width="237.334" height="304.406" rx="14.576"/>
+					  <rect class="box" x="1251.59" y="167.269" width="404.424" height="227.921" rx="14.576"/>
+					  <rect class="box" x="1251.59" y="395.547" width="205.563" height="230.274" rx="14.576"/>
+					  <rect class="box" x="1013.9" y="395.547" width="237.334" height="230.274" rx="14.576"/>
+					  <rect class="box" x="1251.59" y="1.35554" width="146.729" height="165.556" rx="14.576"/>
+					  <rect class="box" x="1012.72" y="1.35554" width="238.511" height="89.0709" rx="14.576"/>
+					  <rect class="box" x="413.786" y="1.35554" width="359.71" height="165.556" rx="14.576"/>
+					  <rect class="box" x="773.854" y="91.9608" width="117.312" height="74.9506" rx="14.576"/>
+					  <rect class="box" x="773.854" y="1.35554" width="238.511" height="90.2476" rx="14.576"/>
+					  <rect class="box" x="209.041" y="317.886" width="205.563" height="152.612" rx="14.576"/>
+					  <rect class="box" x="4.29706" y="399.077" width="205.563" height="71.4206" rx="14.576"/>
+					  <rect class="box" x="4.29706" y="91.9608" width="205.563" height="306.759" rx="14.576"/>
+					  <rect class="box" x="1.15803" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+					  <rect class="box" x="415.158" y="470.356" width="413.466" height="155.466" rx="14.576"/>
+					  <rect class="box" x="829.158" y="470.356" width="184.466" height="155.466" rx="14.576"/>
+
+					  <path id="snake-path1" class="snake snake2"/>
+					</svg>
+				</div>
+				<div class="feedback-slider" data-aos="fade-in" data-aos-duration="1000">
+					<ul>
+						<li>
+							<div class="upwork-logo">
+								<img src="assets/images/upwork.png">
+							</div>
+							<h2>Futuristic UX/UI Designer for Real Estate AI SaaS Platform</h2>
+							<p>“Amazing person to work with and quality work”</p>
+							<div class="rating">
+								<ul>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<h4>5.0 out of 5.0</h4>
+									</li>
+								</ul>
+							</div>
+
+							<div class="btnn">
+								<a href="javascript:;">View on Upwork</a>
+							</div>
+
+						</li>
+
+						<li>
+							<div class="upwork-logo">
+								<img src="assets/images/upwork.png">
+							</div>
+							<h2>P03 24032 Create a Figma mock-up from a PDF</h2>
+							<p>“It was nice working with Umair.”</p>
+							<div class="rating">
+								<ul>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<h4>5.0 out of 5.0</h4>
+									</li>
+								</ul>
+							</div>
+
+							<div class="btnn">
+								<a href="javascript:;">View on Upwork</a>
+							</div>
+
+						</li>
+
+						<li>
+							<div class="upwork-logo">
+								<img src="assets/images/upwork.png">
+							</div>
+							<h2>Software design</h2>
+							<p>Umair was very cooperative and talented. He's the man for your job.</p>
+							<div class="rating">
+								<ul>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<h4>5.0 out of 5.0</h4>
+									</li>
+								</ul>
+							</div>
+
+							<div class="btnn">
+								<a href="javascript:;">View on Upwork</a>
+							</div>
+
+						</li>
+
+						<li>
+							<div class="upwork-logo">
+								<img src="assets/images/upwork.png">
+							</div>
+							<h2>Looking to white label a UI/UX/Print Design focused agency</h2>
+							<p>"Absolutely outstanding! Umair delivered exceptional quality work in record time..<a href="#">See More</a></p>
+							<div class="rating">
+								<ul>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<h4>5.0 out of 5.0</h4>
+									</li>
+								</ul>
+							</div>
+
+							<div class="btnn">
+								<a href="javascript:;">View on Upwork</a>
+							</div>
+
+						</li>
+
+						<li>
+							<div class="upwork-logo">
+								<img src="assets/images/upwork.png">
+							</div>
+							<h2>Futuristic UX/UI Designer for Real Estate AI SaaS Platform</h2>
+							<p>“Amazing person to work with and quality work”</p>
+							<div class="rating">
+								<ul>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<h4>5.0 out of 5.0</h4>
+									</li>
+								</ul>
+							</div>
+
+							<div class="btnn">
+								<a href="javascript:;">View on Upwork</a>
+							</div>
+
+						</li>
+
+						<li>
+							<div class="upwork-logo">
+								<img src="assets/images/upwork.png">
+							</div>
+							<h2>P03 24032 Create a Figma mock-up from a PDF</h2>
+							<p>“It was nice working with Umair.”</p>
+							<div class="rating">
+								<ul>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<h4>5.0 out of 5.0</h4>
+									</li>
+								</ul>
+							</div>
+
+							<div class="btnn">
+								<a href="javascript:;">View on Upwork</a>
+							</div>
+
+						</li>
+
+						<li>
+							<div class="upwork-logo">
+								<img src="assets/images/upwork.png">
+							</div>
+							<h2>Software design</h2>
+							<p>Umair was very cooperative and talented. He's the man for your job.</p>
+							<div class="rating">
+								<ul>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<h4>5.0 out of 5.0</h4>
+									</li>
+								</ul>
+							</div>
+
+							<div class="btnn">
+								<a href="javascript:;">View on Upwork</a>
+							</div>
+
+						</li>
+
+						<li>
+							<div class="upwork-logo">
+								<img src="assets/images/upwork.png">
+							</div>
+							<h2>Looking to white label a UI/UX/Print Design focused agency</h2>
+							<p>"Absolutely outstanding! Umair delivered exceptional quality work in record time..<a href="#">See More</a></p>
+							<div class="rating">
+								<ul>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<i class="fa-solid fa-star"></i>
+									</li>
+									<li>
+										<h4>5.0 out of 5.0</h4>
+									</li>
+								</ul>
+							</div>
+
+							<div class="btnn">
+								<a href="javascript:;">View on Upwork</a>
+							</div>
+
+						</li>
+
+					</ul>
+				</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<?php include 'includes/footer.php' ?>
+
+
+
+
+
+
+</body>
+
+</html>
+
