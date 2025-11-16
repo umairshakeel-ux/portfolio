@@ -1,4 +1,7 @@
-document.querySelectorAll('.border-box').forEach((section) => {
+$(document).ready(function(){
+
+
+  document.querySelectorAll('.border-box').forEach((section) => {
   const svg = section.querySelector('svg');
   const boxes = svg.querySelectorAll('.box');
   const snake = svg.querySelector('.snake');
@@ -94,6 +97,11 @@ document.querySelectorAll('.border-box').forEach((section) => {
   animateDash();
   updateDashPattern();
 });
+  
+
+});
+
+
 
 
 // initialize after DOM ready
