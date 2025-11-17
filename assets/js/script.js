@@ -159,8 +159,68 @@ $(document).ready(function(){
     autoplaySpeed: 3500,
     speed: 800,            // smooth transition
     adaptiveHeight: true,        // fade effect (optional)
-    cssEase: 'linear'
+    cssEase: 'linear',
+    responsive: [
+    {
+      breakpoint: 1141,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 561,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true
+      }
+    }
+  ]
   });
+
+
+
+const ham = document.querySelector('.hamburger');
+const menu = document.querySelector('.mobile-menu');
+const overlay = document.querySelector('.overlay');
+
+// TOGGLE SIDEBAR (OPEN / CLOSE)
+ham.addEventListener('click', () => {
+    menu.classList.toggle('active');
+    overlay.style.display = menu.classList.contains('active') ? "block" : "none";
+});
+
+// CLOSE ON OVERLAY CLICK
+overlay.addEventListener('click', () => {
+    menu.classList.remove('active');
+    overlay.style.display = "none";
+});
+
+// DO NOT close when clicking inside sidebar
+menu.addEventListener('click', (e) => {
+    e.stopPropagation();
+});
+
+
+
+   
+
+
+
+
+
+
+
 
 
 
