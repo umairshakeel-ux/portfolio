@@ -1148,7 +1148,8 @@ section.industries-design {
         right: -1px;
     }
 
-    .mobile-menu.active .hamburger {
+
+    .mobile.active .hamburger {
     right: 280px;
     top: 55px;
     }
@@ -1245,20 +1246,46 @@ section.industries-design {
     gap: 10px;
     overflow: hidden;
 }
+
+.mobile.active .hamburger i {
+    font-size: 32px;
+}
+
+.mobile.active .hamburger i::before {
+    content: "\f057";
+}
+
+
     
 }
 
 @media (max-width:991px){
+
     section.banner .bantext p br {
+        display: none;
+    }
+
+     
+
+}
+
+
+@media (max-width:950px){
+
+    .banner {
+    height: 80vh !important;
+}
+
+section.banner .bantext p br {
     display: none;
 }
 
-
-
-
 }
 
-@media (max-width:800px){}
+@media (max-width:800px){
+    
+ 
+}
 
 @media (max-width:768px){}
 

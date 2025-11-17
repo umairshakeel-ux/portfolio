@@ -193,16 +193,23 @@ $(document).ready(function(){
 const ham = document.querySelector('.hamburger');
 const menu = document.querySelector('.mobile-menu');
 const overlay = document.querySelector('.overlay');
+const mobile = document.querySelector('.mobile'); // parent div
 
 // TOGGLE SIDEBAR (OPEN / CLOSE)
 ham.addEventListener('click', () => {
+
+    // Toggle classes
     menu.classList.toggle('active');
+    mobile.classList.toggle('active'); 
+
+    // Show/Hide overlay
     overlay.style.display = menu.classList.contains('active') ? "block" : "none";
 });
 
 // CLOSE ON OVERLAY CLICK
 overlay.addEventListener('click', () => {
     menu.classList.remove('active');
+    mobile.classList.remove('active'); 
     overlay.style.display = "none";
 });
 
@@ -210,6 +217,9 @@ overlay.addEventListener('click', () => {
 menu.addEventListener('click', (e) => {
     e.stopPropagation();
 });
+
+
+
 
 
 
