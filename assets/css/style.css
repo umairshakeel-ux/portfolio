@@ -19,7 +19,7 @@ header ul li a:hover { color: rgb(20, 168, 0); }
 .btnn { border: unset; text-align: end; }
 .btnn a { background: rgb(20, 168, 0); color: rgb(255, 255, 255); padding: 20px 30px; border-radius: 10px; display: inline-block; transition: 0.4s; border: 1px solid rgb(20, 168, 0); }
 .btnn a:hover {background: transparent;color: rgb(20, 168, 0);border-radius: 10px;display: inline-block;border: 1px solid rgb(20, 168, 0);}
-section.banner { padding: 150px 0px 100px; height: 97vh; position: relative; display: flex; flex-direction: column; align-items: center; background: url("../images/banner-bg-img.png") center center / cover no-repeat; margin: 15px 15px 0px; border-radius: 25px; }
+section.banner {padding: 150px 0px 100px;height: 97vh;position: relative;display: flex;flex-direction: column;align-items: center;background: url("../images/banner-bg-img.png") center center / cover no-repeat;margin: 15px 15px 0px;border-radius: 25px;}
 section.banner .bantext { text-align: center; }
 section.banner .bantext h2 { color: rgb(255, 255, 255); font-size: 60px; font-weight: 300; line-height: 60px; }
 section.banner .bantext p { font-size: 18px; font-weight: 300; padding-top: 15px; line-height: 28px; color: rgb(255, 255, 255); }
@@ -35,7 +35,7 @@ section.banner .border-box { position: absolute; top: 50%; left: 50%; transform:
 .border-box { position: relative; }
 svg { width: 100%; height: 100%; }
 .box { stroke: rgb(231, 231, 231); fill: white; }
-.snake { stroke: url("#snakeGradient"); stroke-width: 2; fill: none; stroke-linecap: round; stroke-dasharray: 200, 1000; animation: 2s linear 0s infinite normal none running dashMove, 2s ease-in-out 0s infinite normal none running pulse; }
+.snake {stroke: url("#snakeGradient") !important;stroke-width: 2 !important;fill: none;stroke-linecap: round;stroke-dasharray: 200, 1000;animation: 2s linear 0s infinite normal none running dashMove, 2s ease-in-out 0s infinite normal none running pulse;}
 .snake:nth-of-type(1) { animation-delay: 0s; }
 .snake:nth-of-type(2) { animation-delay: 0.8s; }
 .snake:nth-of-type(3) { animation-delay: 1.6s; }
@@ -80,7 +80,7 @@ section.feature-work .feature-work-box { position: relative; }
 section.feature-work .feature-work-box .border-box { position: absolute; width: 100%; top: 38%; left: 50%; transform: translate(-50%, -50%); z-index: 0; }
 section.feature-work .feature-work-box .border-box svg#snake-svg { }
 section.feature-work .feature-work-box .border-box svg#snake-svg .box { stroke: rgba(255, 255, 255, 0.06); fill: transparent; }
-.border-box svg#snake-svg .snake2 { stroke: url("#snakeGradient2"); }
+.border-box svg#snake-svg .snake2 {stroke: url("#snakeGradient2");}
 ul.slick-dots { bottom: -170px; right: 50%; transform: translate(0%, 10px); transition: 0.4s; }
 ul.slick-dots li { transition: 0.4s; margin: 0px 2px; }
 ul.slick-dots li.slick-active { margin: 0px 35px 0px 0px; }
@@ -122,7 +122,7 @@ section.tools-and-workflow .tools .tool.tool12 img { width: 178px; }
 section.tools-and-workflow .tools .tool.tool13 { left: unset; right: 215px; top: 350px; }
 section.tools-and-workflow .tools .tool.tool13 h4 { padding-top: 10px; }
 section.about-sec { background: rgb(3, 21, 39); padding: 60px 0px; position: relative; border-radius: 25px; margin: 0px 20px; overflow-x: clip; height: 500px; }
-section.about-sec .border-box { position: absolute; width: 75%; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 0; }
+section.about-sec .border-box {position: absolute;width: 75%;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 0;}
 section.about-sec .border-box svg { }
 section.about-sec .border-box svg .box { fill: transparent; stroke: rgba(255, 255, 255, 0.06); }
 section.about-sec .about-txt {text-align: center;position: relative;z-index: 1;top: 50px;}
@@ -135,9 +135,9 @@ section.about-sec .about-txt ul li i { color: rgb(20, 168, 0); margin-right: 5px
 section.about-sec .about-txt .btnn { text-align: center; margin-top: 50px; }
 section.about-sec .about-txt .btnn a:hover { color: rgb(255, 255, 255); }
 section.about-sec .pic { text-align: center; position: relative; top: 0px; left: 0px; z-index: 0; }
-section.about-sec .pic img {width: 30%;position: absolute;top: -450px;left: 50%;z-index: 2147483647;mask-image: linear-gradient(to top, transparent 0%, black 20%, black 100%);transform: translate(-50%, 0%);}
+section.about-sec .pic img {width: 30%;position: absolute;top: -450px;left: 52%;z-index: 2147483647;mask-image: linear-gradient(to top, transparent 0%, black 20%, black 100%);transform: translate(-50%, 0%);}
 section.about-sec .about-txt p span.gap { width: 200px; display: inline-block; }
-section.service-sec { padding: 100px 0px 0px; }
+section.service-sec {padding: 100px 0px 0px;overflow-x: hidden;}
 section.service-sec .main-heading { text-align: center; padding-bottom: 70px; }
 section.service-sec .main-heading h2 { font-size: 40px; }
 section.service-sec .r1, section.service-sec .r2, section.service-sec .r3 { padding-bottom: 50px; }
@@ -148,7 +148,7 @@ section.service-sec .service-txt ul { display: flex; flex-direction: column; gap
 section.service-sec .service-txt ul li { }
 section.service-sec .service-txt ul li h4 { font-weight: 600; font-size: 24px; line-height: 34px; padding-bottom: 5px; }
 section.service-sec .service-txt ul li p { font-size: 18px; line-height: 28px; }
-section.job-score { padding: 100px 0px; }
+section.job-score {padding: 100px 0px;overflow-x: hidden;}
 section.job-score .job-score { }
 section.job-score .job-score-txt p { font-size: 35px; font-weight: bold; line-height: 45px; }
 section.job-score .job-score-img { text-align: center; }
@@ -467,7 +467,7 @@ section.car-tracking-sec {
 }
 
 section {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -534,179 +534,179 @@ section.inner-sec-1.inner-sec-2 {
 
 @media (max-width:1367px){
 
-section.case-studies .case-box h2 a {
-    font-size: 18px;
-    line-height: 28px;  
+    section.case-studies .case-box h2 a {
+        font-size: 18px;
+        line-height: 28px;  
 
-}
+    }
 
-section.case-studies .case-box p {
-    font-size: 14px;
-    line-height: 24px;
-}
+    section.case-studies .case-box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
 
-section.case-studies .case-box ul {
-    padding-top: 10px;
-    gap: 5px;
-}
+    section.case-studies .case-box ul {
+        padding-top: 10px;
+        gap: 5px;
+    }
 
-section.tools-and-workflow .tools .tool.tool3 {
-    left: 325px;
-    top: 50px;
-}
+    section.tools-and-workflow .tools .tool.tool3 {
+        left: 325px;
+        top: 50px;
+    }
 
-section.tools-and-workflow .tools .tool.tool4 {
-    left: 540px;
-    top: 23px;
-}
+    section.tools-and-workflow .tools .tool.tool4 {
+        left: 540px;
+        top: 23px;
+    }
 
-section.tools-and-workflow .tools .tool.tool5 {
-    left: 710px;
-    top: 22px;
-}
+    section.tools-and-workflow .tools .tool.tool5 {
+        left: 710px;
+        top: 22px;
+    }
 
-section.tools-and-workflow .tools .tool.tool1 {
-    left: 50px;
-    top: 120px;
-}
+    section.tools-and-workflow .tools .tool.tool1 {
+        left: 50px;
+        top: 120px;
+    }
 
-section.tools-and-workflow .tools .tool.tool2 {
-    left: 192px;
-    top: 78px;
-}
+    section.tools-and-workflow .tools .tool.tool2 {
+        left: 192px;
+        top: 78px;
+    }
 
-section.tools-and-workflow .tools .tool.tool6 {
-    left: 297px;
-    top: 116px;
-}
+    section.tools-and-workflow .tools .tool.tool6 {
+        left: 297px;
+        top: 116px;
+    }
 
-section.tools-and-workflow .tools .tool.tool6 img {
-    width: 310px !important;
-}
+    section.tools-and-workflow .tools .tool.tool6 img {
+        width: 310px !important;
+    }
 
-section.tools-and-workflow .tools .tool.tool8 img {
-    width: 262px;
-}
+    section.tools-and-workflow .tools .tool.tool8 img {
+        width: 262px;
+    }
 
-section.tools-and-workflow .tools .tool.tool8 {
-    right: 18px;
-    top: 115px;
-}
-section.tools-and-workflow .tools .tool.tool7 {
-    left: 724px;
-    top: 106px;
-}
+    section.tools-and-workflow .tools .tool.tool8 {
+        right: 18px;
+        top: 115px;
+    }
+    section.tools-and-workflow .tools .tool.tool7 {
+        left: 724px;
+        top: 106px;
+    }
 
-section.tools-and-workflow .tools .tool.tool12 {
-    right: 287px;
-    top: 269px;
-}
+    section.tools-and-workflow .tools .tool.tool12 {
+        right: 287px;
+        top: 269px;
+    }
 
-section.tools-and-workflow .tools .tool.tool12 img {
-    width: 155px;
-}
+    section.tools-and-workflow .tools .tool.tool12 img {
+        width: 155px;
+    }
 
-section.tools-and-workflow .tools .tool.tool11 {
-    top: 350px;
-    left: 595px;
-}
+    section.tools-and-workflow .tools .tool.tool11 {
+        top: 350px;
+        left: 595px;
+    }
 
-section.tools-and-workflow .tools .tool.tool10 {
-    top: 360px;
-    left: 340px;
-}
+    section.tools-and-workflow .tools .tool.tool10 {
+        top: 360px;
+        left: 340px;
+    }
 
-section.tools-and-workflow .tools .tool.tool13 {
-    right: 180px;
-    top: 295px;
-}
+    section.tools-and-workflow .tools .tool.tool13 {
+        right: 180px;
+        top: 295px;
+    }
 
-section.tools-and-workflow .tools .tool.tool9 {
-    top: 318px;
-    left: 19px;
-}
+    section.tools-and-workflow .tools .tool.tool9 {
+        top: 318px;
+        left: 19px;
+    }
 
-section.tools-and-workflow .tools .tool.tool9 img {
-    width: 268px;
-}
+    section.tools-and-workflow .tools .tool.tool9 img {
+        width: 268px;
+    }
 
-section.about-sec {
-    height: 480px;
-}
+    section.about-sec {
+        height: 480px;
+    }
 
-section.about-sec .about-txt p {
-    font-size: 30px;
-    line-height: 50px;
-}
+    section.about-sec .about-txt p {
+        font-size: 30px;
+        line-height: 50px;
+    }
 
-section.feedback ul li.slick-slide h2 {
-    font-size: 18px;
-    line-height: 25px;
-}
+    section.feedback ul li.slick-slide h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
 
-section.feedback ul li.slick-slide p {
-    font-size: 14px;
-}
+    section.feedback ul li.slick-slide p {
+        font-size: 14px;
+    }
 
-section.industries-design .industries .industry.industry3 {
-    top: 18px;
-    width: 210px;
-    left: 312px;
-}
+    section.industries-design .industries .industry.industry3 {
+        top: 18px;
+        width: 210px;
+        left: 312px;
+    }
 
-section.industries-design .industries .industry.industry2 {
-    top: 90px;
-    width: 120px;
-    left: 163px;
-}
+    section.industries-design .industries .industry.industry2 {
+        top: 90px;
+        width: 120px;
+        left: 163px;
+    }
 
-section.industries-design .industries .industry.industry1 {
-    top: 110px;
-    width: 120px;
-    left: 28px;
-}
+    section.industries-design .industries .industry.industry1 {
+        top: 110px;
+        width: 120px;
+        left: 28px;
+    }
 
-section.industries-design .industries .industry.industry7 {
-    left: 45px;
-    top: 340px;
-    width: 250px;
-}
+    section.industries-design .industries .industry.industry7 {
+        left: 45px;
+        top: 340px;
+        width: 250px;
+    }
 
-section.industries-design .industries .industry.industry8 {
-    left: 320px;
-    top: 340px;
-    width: 250px;
-}
+    section.industries-design .industries .industry.industry8 {
+        left: 320px;
+        top: 340px;
+        width: 250px;
+    }
 
-section.industries-design .industries .industry.industry4 {
-    top: 185px;
-    width: 250px;
-    left: 340px;
-}
+    section.industries-design .industries .industry.industry4 {
+        top: 185px;
+        width: 250px;
+        left: 340px;
+    }
 
-section.industries-design .industries .industry.industry5 {
-    right: 303px;
-    top: 105px;
-    width: 120px;
-}
+    section.industries-design .industries .industry.industry5 {
+        right: 303px;
+        top: 105px;
+        width: 120px;
+    }
 
-section.industries-design .industries .industry.industry6 {
-    right: 12px;
-    top: 160px;
-    width: 250px;
-}
+    section.industries-design .industries .industry.industry6 {
+        right: 12px;
+        top: 160px;
+        width: 250px;
+    }
 
-section.industries-design .industries .industry.industry10 {
-    top: 288px;
-    width: 130px;
-    right: 140px;
-}
+    section.industries-design .industries .industry.industry10 {
+        top: 288px;
+        width: 130px;
+        right: 140px;
+    }
 
-section.industries-design .industries .industry.industry9 {
-    top: 295px;
-    width: 130px;
-    right: 295px;
-}
+    section.industries-design .industries .industry.industry9 {
+        top: 295px;
+        width: 130px;
+        right: 295px;
+    }
 
 
 
@@ -716,49 +716,49 @@ section.industries-design .industries .industry.industry9 {
 @media (max-width:1280px){
 
     header .logo ul li p {
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-}
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+    }
 
-section.case-studies{
-    padding-top: 50px;
-}
+    section.case-studies{
+        padding-top: 50px;
+    }
 
-section .main-heading {
-    padding-bottom: 50px !important;
-}
+    section .main-heading {
+        padding-bottom: 50px !important;
+    }
 
-section.tools-and-workflow {
-    padding: 50px 0px 100px;
-}
+    section.tools-and-workflow {
+        padding: 50px 0px 100px;
+    }
 
-section.about-sec .pic img {
-    top: -420px;
-}
+    section.about-sec .pic img {
+        top: -420px;
+    }
 
-section.service-sec {
-    padding: 50px 0px 0px;
-}
+    section.service-sec {
+        padding: 50px 0px 0px;
+    }
 
-section.service-sec .service-head h2 {
-    padding-bottom: 20px;
-    font-size: 32px;
-    line-height: 42px;
-}
+    section.service-sec .service-head h2 {
+        padding-bottom: 20px;
+        font-size: 32px;
+        line-height: 42px;
+    }
 
-section.service-sec .service-head h2 br {
-    display: none;
-}
+    section.service-sec .service-head h2 br {
+        display: none;
+    }
 
-section.service-sec .service-txt ul li h4 {
-    font-size: 21px;
-    line-height: 31px;
-    padding-bottom: 0px;
-}
+    section.service-sec .service-txt ul li h4 {
+        font-size: 21px;
+        line-height: 31px;
+        padding-bottom: 0px;
+    }
 
-section.service-sec .r2 .service-img, section.service-sec .r4 .service-img {
-    padding-right: 0px;
-}
+    section.service-sec .r2 .service-img, section.service-sec .r4 .service-img {
+        padding-right: 0px;
+    }
 
 
 
@@ -767,49 +767,47 @@ section.service-sec .r2 .service-img, section.service-sec .r4 .service-img {
 
 @media (max-width:1260px){
 
- section.about-sec {
+    section.about-sec {
         height: 450px;
     }
 
     section.about-sec .about-txt .btnn {
     margin-top: 20px;
-}
-
-
-
+    }
 
 
 }
 
 @media (max-width:1200px){
     header ul {
-    gap: 15px;
-}
+        gap: 15px;
+    }
 
-section.job-score .job-score-txt p {
-    font-size: 28px;
-    line-height: 38px;
-}
+    section.job-score .job-score-txt p {
+        font-size: 28px;
+        line-height: 38px;
+    }
 
-.main-heading h2 {
-    font-size: 32px !important;
-}
+    .main-heading h2 {
+        font-size: 32px !important;
+    }
 
 
 
 }
 
 @media (max-width:1140px){
-        section.banner .bantext h2 {
+
+    section.banner .bantext h2 {
         font-size: 42px;
         line-height: 52px;
     }
 
     
 
-section.case-studies .col-md-4 {
-    width: 50%;
-}
+    section.case-studies .col-md-4 {
+        width: 50%;
+    }
 
     section.about-sec .about-txt p {
         font-size: 24px;
@@ -817,8 +815,8 @@ section.case-studies .col-md-4 {
     }
 
     section.about-sec .about-txt {
-    top: 10px;
-}
+        top: 10px;
+    }
 
     section.about-sec {
         height: 400px;
@@ -848,8 +846,8 @@ section.case-studies .col-md-4 {
     }
 
     section.tools-and-workflow .tools .tool.tool2 img {
-    width: 45px;
-}
+        width: 45px;
+    }
 
     section.tools-and-workflow .tools .tool.tool4 {
         left: 455px;
@@ -857,48 +855,48 @@ section.case-studies .col-md-4 {
     }
 
     section.tools-and-workflow .tools .tool h4 {
-    font-size: 12px;
-}
+        font-size: 12px;
+    }
 
     section.tools-and-workflow .tools .tool.tool5 {
         left: 595px;
         top: 20px;
     }
 
-        section.tools-and-workflow .tools .tool.tool6 {
+    section.tools-and-workflow .tools .tool.tool6 {
         left: 251px;
         top: 97px;
     }
 
-        section.tools-and-workflow .tools .tool.tool6 img {
+    section.tools-and-workflow .tools .tool.tool6 img {
         width: 260px !important;
     }
 
-        section.tools-and-workflow .tools .tool.tool8 img {
+    section.tools-and-workflow .tools .tool.tool8 img {
         width: 218px;
     }
 
-        section.tools-and-workflow .tools .tool.tool8 {
+    section.tools-and-workflow .tools .tool.tool8 {
         right: 18px;
         top: 97px;
     }
 
-        section.tools-and-workflow .tools .tool.tool7 {
+    section.tools-and-workflow .tools .tool.tool7 {
         left: 600px;
         top: 85px;
     }
 
-        section.tools-and-workflow .tools .tool.tool13 {
+    section.tools-and-workflow .tools .tool.tool13 {
         right: 145px;
         top: 240px;
     }
 
-        section.tools-and-workflow .tools .tool.tool12 {
+    section.tools-and-workflow .tools .tool.tool12 {
         right: 245px;
         top: 227px;
     }
 
-        section.tools-and-workflow .tools .tool.tool12 img {
+    section.tools-and-workflow .tools .tool.tool12 img {
         width: 125px;
     }
 
@@ -907,24 +905,24 @@ section.case-studies .col-md-4 {
         left: 492px;
     }
 
-        section.tools-and-workflow .tools .tool.tool9 img {
+    section.tools-and-workflow .tools .tool.tool9 img {
         width: 220px;
     }
 
-        section.tools-and-workflow .tools .tool.tool9{
+    section.tools-and-workflow .tools .tool.tool9{
         top: 268px;
         left: 22px;
     }
 
-        section.tools-and-workflow .tools .tool.tool10 {
+    section.tools-and-workflow .tools .tool.tool10 {
         top: 305px;
         left: 290px;
     }
 
     section.service-sec .service-txt ul li p {
-    font-size: 16px;
-    line-height: 26px;
-}
+        font-size: 16px;
+        line-height: 26px;
+    }
 
     section.service-sec .service-head h2 {
         padding-bottom: 20px;
@@ -932,18 +930,18 @@ section.case-studies .col-md-4 {
         line-height: 38px;
     }
 
-        section.job-score .job-score-txt p {
+    section.job-score .job-score-txt p {
         font-size: 22px;
         line-height: 32px;
     }
 
     section.industries-design .industries .industry h4 {
-    font-size: 14px;
-}
+        font-size: 14px;
+    }
 
-section.industries-design .industries .industry p {
-    font-size: 11px;
-}
+    section.industries-design .industries .industry p {
+        font-size: 11px;
+    }
 
     section.industries-design .industries .industry.industry1 {
         top: 75px;
@@ -951,83 +949,83 @@ section.industries-design .industries .industry p {
         left: 24px;
     }
 
-        section.industries-design .industries .industry.industry2 {
+    section.industries-design .industries .industry.industry2 {
         top: 65px;
         width: 100px;
         left: 142px;
     }
 
-        section.industries-design .industries .industry.industry3 {
+    section.industries-design .industries .industry.industry3 {
         top: 12px;
         width: 190px;
         left: 256px;
     }
 
-        section.industries-design .industries .industry.industry4 {
+    section.industries-design .industries .industry.industry4 {
         top: 150px;
         width: 250px;
         left: 280px;
     }
 
-        section.industries-design .industries .industry.industry5 {
+    section.industries-design .industries .industry.industry5 {
         right: 250px;
         top: 85px;
         width: 110px;
     }
 
-        section.industries-design .industries .industry.industry6 {
+    section.industries-design .industries .industry.industry6 {
         right: 16px;
         top: 133px;
         width: 210px;
     }
 
-        section.industries-design .industries .industry.industry7 {
+    section.industries-design .industries .industry.industry7 {
         left: 33px;
         top: 285px;
         width: 200px;
     }
 
-        section.industries-design .industries .industry.industry8 {
+    section.industries-design .industries .industry.industry8 {
         left: 265px;
         top: 285px;
         width: 200px;
     }
 
 
-        section.industries-design .industries .industry.industry9 {
+    section.industries-design .industries .industry.industry9 {
         top: 236px;
         width: 100px;
         right: 255px;
     }
 
 
-        section.industries-design .industries .industry.industry10 {
+    section.industries-design .industries .industry.industry10 {
         top: 238px;
         width: 100px;
         right: 130px;
     }
 
     .btnn a {
-    padding: 15px;
-    font-size: 14px;
-}
+        padding: 15px;
+        font-size: 14px;
+    }
 
-.btnn1 a {
-    padding: 15px !important;
-    font-size: 14px;
-}
+    .btnn1 a {
+        padding: 15px !important;
+        font-size: 14px;
+    }
 
-header .logo ul li h2 {
-    font-size: 18px;
-}
+    header .logo ul li h2 {
+        font-size: 18px;
+    }
 
-header .logo ul{
-    gap: 0px;
-}
+    header .logo ul{
+        gap: 0px;
+    }
 
-header .logo ul li img {
-    width: 85%;
-}
+    header .logo ul li img {
+        width: 85%;
+    }
 
     header ul {
         gap: 18px;
@@ -1038,32 +1036,33 @@ header .logo ul li img {
 }
 
 @media (max-width:1024px){
-        section.service-sec .service-txt ul li p {
+
+    section.service-sec .service-txt ul li p {
         font-size: 14px;
         line-height: 24px;
     }
 
-        section.service-sec .service-head h2 {
+    section.service-sec .service-head h2 {
         font-size: 24px;
         line-height: 34px;
     }
 
-        section.about-sec .about-txt p {
+    section.about-sec .about-txt p {
         font-size: 21px;
         line-height: 35px;
     }
 
-        section.about-sec {
+    section.about-sec {
         height: 350px;
     }
 
-        section.about-sec .about-txt {
+    section.about-sec .about-txt {
         top: 40px;
     }
 
     section.about-sec .about-txt ul {
-    padding-top: 20px;
-}
+        padding-top: 20px;
+    }
 
     section.about-sec .pic img {
         top: -305px;
@@ -1071,8 +1070,8 @@ header .logo ul li img {
     }
 
     section.about-sec .about-txt ul li {
-    font-size: 14px;
-}
+        font-size: 14px;
+    }
 
     section.case-studies .case-box h2 a {
         font-size: 16px;
@@ -1080,24 +1079,24 @@ header .logo ul li img {
     }
 
     header ul li a {
-    font-size: 14px;
-}
+        font-size: 14px;
+    }
 
-header .logo ul li p {
+    header .logo ul li p {
         font-size: 10px;
     }
 
-        header .logo ul li h2 {
+    header .logo ul li h2 {
         font-size: 16px;
     }
 
     section.feedback ul li.slick-slide .btnn {
-    margin-top: 0px;
-}
+        margin-top: 0px;
+    }
 
-section.industries-design {
-    padding-bottom: 50px;
-}
+    section.industries-design {
+        padding-bottom: 50px;
+    }
 
 
 }
@@ -1163,130 +1162,277 @@ section.industries-design {
     }
 
     .mobile-menu ul {
-    display: flex;
-}
+        display: flex;
+    }
 
-.mobile-menu ul li {}
+    .mobile-menu ul li {}
 
-.mobile-menu ul li a {
-    color: #fff;
-}
+    .mobile-menu ul li a {
+        color: #fff;
+    }
 
-.mobile-menu ul li.dropdown {}
+    .mobile-menu ul li.dropdown {}
 
-.mobile-menu ul li.dropdown ul {
-    margin-top: 15px;
-}
+    .mobile-menu ul li.dropdown ul {
+        margin-top: 15px;
+    }
 
-.mobile-menu ul li.dropdown ul li {}
+    .mobile-menu ul li.dropdown ul li {}
 
-.mobile-menu ul li.dropdown ul li a {
-    width: 100%;
-    display: block;
-    padding: 10px;
-    font-size: 14px;
-}
+    .mobile-menu ul li.dropdown ul li a {
+        width: 100%;
+        display: block;
+        padding: 10px;
+        font-size: 14px;
+    }
 
-.mobile-menu ul li.dropdown ul li a:hover {
-    background: #14a800;
-}
+    .mobile-menu ul li.dropdown ul li a:hover {
+        background: #14a800;
+    }
 
-.mobile-menu ul li a:hover {
-    background: #14a800;
-    padding: 10px;
-    width: 100%;
-    display: block;
-}
+    .mobile-menu ul li a:hover {
+        background: #14a800;
+        padding: 10px;
+        width: 100%;
+        display: block;
+    }
 
-.mobile-menu ul {
-    display: flex;
-}
+    .mobile-menu ul {
+        display: flex;
+    }
 
-.mobile-menu ul li {}
+    .mobile-menu ul li {}
 
-.mobile-menu ul li a {
-    color: #fff;
-    padding: 10px;
-    width: 100%;
-    display: block;
-}
+    .mobile-menu ul li a {
+        color: #fff;
+        padding: 10px;
+        width: 100%;
+        display: block;
+    }
 
-.mobile-menu ul li.dropdown {}
+    .mobile-menu ul li.dropdown {}
 
-.mobile-menu ul li.dropdown ul {
-    margin-top: 0;
-}
+    .mobile-menu ul li.dropdown ul {
+        margin-top: 0;
+    }
 
-.mobile-menu ul li.dropdown ul li {}
+    .mobile-menu ul li.dropdown ul li {}
 
-.mobile-menu ul li.dropdown ul li a {
-    width: 100%;
-    display: block;
-    padding: 10px;
-    font-size: 14px;
-}
+    .mobile-menu ul li.dropdown ul li a {
+        width: 100%;
+        display: block;
+        padding: 10px;
+        font-size: 14px;
+    }
 
-.mobile-menu ul li.dropdown ul li a:hover {
-    background: #14a800;
-}
+    .mobile-menu ul li.dropdown ul li a:hover {
+        background: #14a800;
+    }
 
-.mobile-menu ul li a:hover {
-    background: #14a800;
-    padding: 10px;
-    width: 100%;
-    display: block;
-}
+    .mobile-menu ul li a:hover {
+        background: #14a800;
+        padding: 10px;
+        width: 100%;
+        display: block;
+    }
 
-.mobile-menu ul li.dropdown:hover ul {
-    height: auto;
-    background: #000;
-    border: 1px solid #14a800;
-    gap: 0;
-}
+    .mobile-menu ul li.dropdown:hover ul {
+        height: auto;
+        background: #000;
+        border: 1px solid #14a800;
+        gap: 0;
+    }
 
-.mobile-menu ul li.dropdown ul {
-    height: 0;
-    border: 1px solid #14a80000;
-    gap: 10px;
-    overflow: hidden;
-}
+    .mobile-menu ul li.dropdown ul {
+        height: 0;
+        border: 1px solid #14a80000;
+        gap: 10px;
+        overflow: hidden;
+    }
 
-.mobile.active .hamburger i {
-    font-size: 32px;
-}
+    .mobile.active .hamburger i {
+        font-size: 32px;
+    }
 
-.mobile.active .hamburger i::before {
-    content: "\f057";
-}
-
-
-    
-}
-
-@media (max-width:991px){
+    .mobile.active .hamburger i::before {
+        content: "\f057";
+    }
 
     section.banner .bantext p br {
         display: none;
     }
 
+    section.banner .bantext h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    section.banner .bantext h2 span.highlight1::before {
+        top: 5px;
+        right: -5px;
+    }
+
+    section.banner .bantext p {
+        font-size: 16px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    
+}
+
+
+@media (min-width: 801px) and (max-width: 991px){
+
+
+    section.banner .bantext p br {
+        display: none;
+    }
+
+    section.case-studies .case-box h2 a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+        section.case-studies .case-box p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    section.case-studies .case-box ul li.location div img {
+        width: 25px;
+        height: 15px;
+    }
+
+    section.case-studies .case-box ul li h6 {
+        font-size: 12px;
+    }
+
+
+    .box {
+        stroke: rgb(184 184 184);
+    }
+
+
      
+    section.banner {
+        height: 90vh;
+    }
 
+        section.about-sec .about-txt p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    section.about-sec .about-txt ul {
+        gap: 10px;
+    }
+
+    section.about-sec {
+        margin-top: 50px;
+    }
+
+
+    section.tools-and-workflow .border-box {
+        display: none;
+    }
+
+        section.tools-and-workflow .tools .tool {
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        top: 0px !important;
+        left: 0 !important;
+        border: 1px solid rgb(20, 168, 0);
+        padding: 15px;
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.tools-and-workflow .tools {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
+    section.tools-and-workflow .tools .tool h4 {
+        font-size: 14px;
+    }
 
-@media (max-width:950px){
+        section.about-sec .pic img {
+        top: -290px;
+        left: 50%;
+        width: 40%;
+    }
 
-    .banner {
-    height: 80vh !important;
+
+        section.service-sec .service-txt ul li h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+        section.service-sec .service-head h2 {
+        font-size: 21px;
+        line-height: 31px;
+    }
+
+    section.service-sec .r1 .service-img, section.service-sec .r3 .service-img {
+    padding-left: 0px;
 }
 
-section.banner .bantext p br {
+section.service-sec .r2 .service-head, section.service-sec .r4 .service-head {
+    padding-left: 0px;
+}
+
+    section.job-score .job-score-txt p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    section.industries-design .border-box {
     display: none;
 }
 
+section.industries-design .industries .industry {
+    position: relative;
+    top: 0 !important;
+    left: 0 !important;
 }
 
-@media (max-width:800px){
+section.industries-design .industries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+section.industries-design .industries .industry {
+    text-align: center;
+    z-index: 1;
+    border: 1px solid rgb(20, 168, 0);
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+}
+
+section.industries-design .industries .industry h4 br {
+    display: none;
+}
+
+
+}
+
+@media (min-width:769px) and (max-width:801px){
+   
+        section.industries-design .industries {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
     
  
 }
