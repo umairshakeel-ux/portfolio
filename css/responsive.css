@@ -1,0 +1,135 @@
+/* ==========================================================================
+   responsive.css — load AFTER css/style.css
+   Smooth-scroll support, AOS safety rules and responsive fixes (320px → 4K).
+   ========================================================================== */
+
+:root { --accent: #ff8901; } /* style.css references var(--accent) but never defined it */
+
+/* ---------- Global safety ---------- */
+html { overflow-x: clip; -webkit-text-size-adjust: 100%; }
+body { min-width: 320px; }
+video, svg { max-width: 100%; }
+
+/* ---------- Lenis smooth scroll ---------- */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+/* ---------- AOS: restore normal hover transitions after the entrance ---------- */
+.aos-done[data-aos] { transition-duration: .25s !important; transition-delay: 0s !important; }
+[data-aos] { will-change: transform, opacity; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  [data-aos] { opacity: 1 !important; transform: none !important; transition: none !important; }
+}
+
+/* ==========================================================================
+   LARGE SCREENS
+   ========================================================================== */
+@media (min-width: 2200px) {
+  .site-header, main, footer { max-width: 2560px; margin-inline: auto; }
+}
+
+/* ==========================================================================
+   < 1200px  (tablets & below): hero becomes a stacked layout
+   ========================================================================== */
+@media (max-width: 1199.98px) {
+  .hero-content { width: 100%; }
+  .hero .row > [class*="col-"] { flex: 0 0 100%; max-width: 100%; width: 100%; }
+  .hero-tools { flex-wrap: wrap; margin-bottom: 1.25rem; }
+  .hero-tools li { width: clamp(44px, 9vw, 64px); }
+  .hero-title { font-size: clamp(2rem, 5.6vw, 3.6rem); }
+  .hero-text { max-width: 100%; }
+  .hero .myimg {
+    position: relative; right: auto; bottom: auto; z-index: 1;
+    width: min(520px, 92%); margin: 1.5rem auto 0;
+  }
+  .hero .myimg img { display: block; width: 100%; height: auto; }
+}
+
+/* ==========================================================================
+   < 992px
+   ========================================================================== */
+@media (max-width: 991.98px) {
+  /* header pills: explicit icon size (18% of an inline-flex pill is unreliable) */
+  .pill-btn img { width: clamp(24px, 4vw, 36px); height: auto; flex-shrink: 0; }
+
+  /* "I am proud" — breathing room between the cards */
+  .proud-cells > [class*="col-"] { padding: 6px; }
+  .proud-panel { border-radius: 24px; }
+
+  /* portfolio cover: single column */
+  .cover-row > [class*="col-"] { flex: 0 0 100%; max-width: 100%; }
+  .cover-item { margin-bottom: 1.75rem; }
+  .cover-cap { font-size: clamp(1.6rem, 6.5vw, 2.6rem); }
+  .cover .crop { width: 100%; max-width: 560px; }
+
+  /* services */
+  .services-wrap { margin-inline: 12px; }
+  .services-lead, .services-divider { max-width: 100%; }
+}
+
+/* ==========================================================================
+   < 768px  (phones landscape)
+   ========================================================================== */
+@media (max-width: 767.98px) {
+  .site-header { padding-top: 14px; }
+  .work-title { padding-left: 0; }
+  .stats, .reviews-inner, .cs-hero { border-radius: 22px; }
+  .contact-card { aspect-ratio: 4 / 3.4; }
+  .contact-mail { font-size: clamp(1.05rem, 5.4vw, 1.6rem); }
+  .tools-card { border-radius: 22px; }
+  .tool-icon, .tool-icon-m { margin-inline: auto; display: block; }
+  .benefit-card { max-width: 520px; margin-inline: auto; }
+  .cs-wrap { padding-inline: 16px; }
+}
+
+/* ==========================================================================
+   < 576px  (phones)
+   ========================================================================== */
+@media (max-width: 575.98px) {
+  .brand-name { font-size: 1rem; }
+  .pill-btn { font-size: .9rem; padding: 5px 10px; gap: 6px; }
+  .hero { padding-top: 96px; }
+  .hero-title { font-size: clamp(1.75rem, 8.4vw, 2.2rem); line-height: 1.2; }
+  .hero-text { font-size: .98rem; }
+
+  /* proud cards: smaller numerals + padding so titles never collide */
+  .proud-cell, .proud-cell.cell5, .proud-cell.cell6 { padding: 22px 18px 22px 76px; min-height: 110px; }
+  .proud-cell .num,
+  .proud-cell.cell2 span.num, .proud-cell.cell3 span.num,
+  .proud-cell.cell5 span.num, .proud-cell.cell6 span.num { left: 16px; font-size: 4.6rem; }
+  .proud-cell h3 { font-size: 1.3rem; }
+
+  .cover-title { font-size: clamp(4.5rem, 30vw, 8rem); }
+  .case-btn { font-size: .88rem; padding: 8px 16px; }
+  .tools-title { font-size: clamp(2.6rem, 17vw, 4.5rem); }
+  .tools-cta { font-size: 1rem; padding: 10px 20px; }
+  .review { padding: 18px; border-radius: 20px; }
+  .stat-num { font-size: clamp(3rem, 18vw, 4.2rem); }
+  .services-wrap { margin-inline: 8px; padding: 32px 0; }
+  .view-btn { font-size: 1rem; }
+  .view-btn .circle { width: 46px; height: 46px; }
+  .pill-btn-lg, .contact-card .pill-btn { font-size: 1.05rem; }
+  .contact-card .pill-btn { padding: 8px 22px 8px 12px; }
+  .pill-btn-lg img, .contact-card .pill-btn img { width: 40px; height: 40px; }
+}
+
+/* ---------- Very small phones ---------- */
+@media (max-width: 359.98px) {
+  .container-wide { padding-inline: 10px; }
+  .proud-cell, .proud-cell.cell5, .proud-cell.cell6 { padding-left: 64px; }
+  .proud-cell .num { font-size: 3.8rem; }
+}
+
+/* ---------- Touch devices: no sticky hover, comfortable tap targets ---------- */
+@media (hover: none) {
+  .service-card:hover { transform: none; }
+  .case-btn, .pill-btn, .view-btn { min-height: 40px; }
+}
+
+/* ---------- Landscape phones: don't make the hero taller than the screen ---------- */
+@media (max-height: 480px) and (orientation: landscape) and (max-width: 991.98px) {
+  .hero { padding-top: 84px; }
+}
