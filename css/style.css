@@ -885,3 +885,7 @@ article.case-card.case-card6 {
 .case-study-3 .cs-copy p { margin: 0 0 .9em; }
 .cs-focus { color: #cfcfcf; }
 .cs-focus strong { color: var(--orange); font-weight: 700; }
+
+.comingsoon {
+    text-align: center;
+}
